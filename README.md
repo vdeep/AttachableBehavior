@@ -1,6 +1,7 @@
 ## AttachableBehavior
 This is a behavior that helps manage the uploading of files. It'll upload the files to the specified directories. It will also delete the files in case of record being deleted as well as when the file is being re-uploaded for the same record.
-**Usage and configuration**: Copy the file `AttachableBehavior.php` to your `Model/Behavior` folder. The minimum configuration you'll need to specify in your model will be:
+#####Usage and configuration
+Copy the file `AttachableBehavior.php` to your `Model/Behavior` folder. The minimum configuration you'll need to specify in your model will be:
 ```php
 public $actsAs = array(
 	'Attachable' => array(
