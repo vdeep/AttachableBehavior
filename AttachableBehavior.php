@@ -38,7 +38,7 @@ class AttachableBehavior extends ModelBehavior {
 			'FILE_NOT_UPLOADED' => 'The file was not properly uploaded.',
 			'PARENT_DIRECTORY_NOT_WRITABLE' => 'The parent directory is now writable.',
 		),
-		'createDir' => false,
+		'createDir' => true,
 	);
 
 	public function setup(Model $Model, $options = array()) {
